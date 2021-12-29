@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            animation: bounceIn 5s;
+        }
+        .hello {
+            color: red;
+            /* background-color: saddlebrown; */
+            /* height: 100px;
+            width: 200px; */
+            /* justify-content: center;
+            align-items: center; */
+            /* border-radius: 20px; */
+            
+        }
+        @keyframes bounceIn {
+            0% {
+                transform: scale(0.1);
+                opacity: 0;
+            }
+            60% {
+                transform: scale(1.2);
+                opacity: 1;
+            }
+            90% {
+                transform: scale(1.5);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h2 class="hello">hello</h2>
+    </div>
+</body>
+</html>
