@@ -1,1 +1,1 @@
-# Learn_Javascript
+Basics of Javascript
